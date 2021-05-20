@@ -33,9 +33,9 @@ USAGE: ./cmds.sh
 
 Note: Arguments related to random walks correspond to GraphReach only
 
-* `--model`: ```The model to be executed
-    Options: GraphReach, PGNN, GCN, MLP, SAGE, GAT, GIN
-```
+* `--model`: The model to be executed
+
+Options: GraphReach, PGNN, GCN, MLP, SAGE, GAT, GIN
 * `--dataset`: Dataset to train the model
 
 Options: grid, communities, ppi, email, completeEmail, protein, All
