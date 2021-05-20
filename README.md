@@ -111,8 +111,12 @@ Perform adversarial testing
 Add false edges to nodes involved in sampled fraction of test pairs
 
 
-
-
 ## Testing on Unseen Graph
 The model can be run on completely new unseen graph by uncommenting Line#51 in test.py.
 USAGE: ./test.sh
+
+
+## Data:
+
+Data used for the experiments can be downloaded from the following link.
+https://github.com/JiaxuanYou/P-GNN/tree/master/data
