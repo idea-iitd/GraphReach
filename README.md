@@ -32,81 +32,81 @@ USAGE: ./cmds.sh
 
 Note: Arguments related to random walks correspond to GraphReach only
 
---model
+* `--model`:
 The model to be executed
 Options: GraphReach, PGNN, GCN, MLP, SAGE, GAT, GIN
 
---dataset
+* `--dataset`:
 Dataset to train the model
 Options: grid, communities, ppi, email, completeEmail, protein, All
 
---task
+* `--task`:
 Task to perform, link prediction (LP) or pairwise node classification (PNC)
 Options: link (for LP), link_pair (for PNC)
 
---remove_link_ratio
+* `--remove_link_ratio`:
 Fraction of data to be retained as validation and test set
 (Validation and test are split into half)
 
---layer_num
+* `--layer_num`:
 Number of layers in model
 
---epoch_num 
+* `--epoch_num `:
 Number of epochs
 
---repeat_num
+* `--repeat_num`:
 Number of iterations of experiment
 
---num_walk
+* `--num_walk`:
 Number of random walks
 
---walk_length
+* `--walk_length`:
 Length of the random walk 
 
---unweightedRandomWalk
+* `--unweightedRandomWalk`:
 For unweighted random walk
 
---weightedRandomWalk
+* `--weightedRandomWalk`:
 For weighted random walk
 
---edgelabel
+* `--edgelabel`:
 To bias random walk
 Used only for pairwise node classification task
 Not to be used in adversarial setting
 
---Num_Anchors
+* `--Num_Anchors`:
 Number of anchors
 Options: 3, 5, 8, logn, 2logn, 5logn, logn2
 (logn2 for (log(n))^2 anchors) 
 
---select_anchors
+* `--select_anchors`:
 Anchor Selection Strategy
 Options: DiversifiedRandomK, DiversifiedTopK, topK, random
 (For GraphReach only)
 
---sampleXwalks
+* `--sampleXwalks`:
 Sample X% of walks from all the random walks
 (For diversified anchor selection)
 
---sampleMbigraphs
+* `--sampleMbigraphs`:
 Sample M Bipartite Graphs
 (For diversified anchor selection)
 
---rm_feature
+* `--rm_feature`:
 For inductive setting, default is tranductive
 
---attention
+* `--attention`:
 For attention based aggregation
 (GraphReach only)
 
---attentionAddSelf
+* `--attentionAddSelf`:
 For attention based aggregation with self feature
 (GraphReach only)
 
---AdversarialAttack
+* `--AdversarialAttack`:
 Perform adversarial testing
 
---addFedges
+* `--addFedges`:
 Add false edges to nodes involved in sampled fraction of test pairs
 
 
