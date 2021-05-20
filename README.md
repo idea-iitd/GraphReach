@@ -116,7 +116,7 @@ The model can be run on completely new unseen graph by uncommenting Line#51 in t
 USAGE: ./test.sh
 
 
-## Data:
+## Data
 
 Data used for the experiments can be downloaded from the following link.
 https://github.com/JiaxuanYou/P-GNN/tree/master/data
