@@ -1,4 +1,15 @@
-## GraphReach : Position-Aware Graph Neural Network using Reachability Estimations
+## GraphReach
+
+*GraphReach* is a position-aware inductive GNN that captures the global positions
+of nodes through reachability estimations with respect to a set of anchor nodes.
+The anchors are strategically selected so that reachability estimations across all
+the nodes are maximized. This strategy also makes the model more robust to adversarial
+attacks.
+
+Please cite our paper, if you use our source code.
+* "GraphReach : Position-Aware Graph Neural Network using Reachability Estimations, IJCAI'21"
+
+## Structure
 
 There are two code folders one each for GraphReach and P-GNN with adversarial attack functionality.
 
