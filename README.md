@@ -1,8 +1,9 @@
 ## GraphReach : Position-Aware Graph Neural Network using Reachability Estimations
 
-There are two folders GraphReach and PGNN, each corresponding to respective frameworks.
+There are two code folders one each for GraphReach and P-GNN with adversarial attack functionality.
+
 The P-GNN framework was taken from [https://github.com/JiaxuanYou/P-GNN] and has other
-benchmarks implemented as well. The framework code is added to the supplementary as
+benchmarks implemented as well. The framework code is added as
 the adversarial module is additional to the existing prior work.
 
 
@@ -110,8 +111,12 @@ Perform adversarial testing
 Add false edges to nodes involved in sampled fraction of test pairs
 
 
-
-
 ## Testing on Unseen Graph
 The model can be run on completely new unseen graph by uncommenting Line#51 in test.py.
 USAGE: ./test.sh
+
+
+## Data
+
+Data used for the experiments can be downloaded from the following link.
+https://github.com/JiaxuanYou/P-GNN/tree/master/data
