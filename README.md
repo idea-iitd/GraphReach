@@ -1,4 +1,4 @@
-## GraphReach
+## *GraphReach*
 
 *GraphReach* is a position-aware inductive GNN that captures the global positions
 of nodes through reachability estimations with respect to a set of anchor nodes.
