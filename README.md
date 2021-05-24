@@ -15,6 +15,7 @@ There are three code folders.
 Two of them are for GraphReach with the following functionalities :
 * Link Prediction and Pairwise Node Classification
 * Node Classification
+
 One for P-GNN with adversarial attack functionality.
 
 The P-GNN framework was taken from [https://github.com/JiaxuanYou/P-GNN] and has other
@@ -71,7 +72,7 @@ Note: Arguments related to random walks correspond to GraphReach only
 * `--addFedges`: Add false edges to nodes involved in sampled fraction of test pairs
 
 ## Testing on Unseen Graph
-The model can be run on completely new unseen graph by uncommenting Line#51 in test.py.
+The model can be run on completely new unseen graph by uncommenting Line#47 in test.py.
 USAGE: ./test.sh
 
 
