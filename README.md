@@ -11,7 +11,11 @@ Please cite our paper, if you use our source code.
 
 ## Code Structure
 
-There are two code folders one each for GraphReach and P-GNN with adversarial attack functionality.
+There are three code folders. 
+Two of them are for GraphReach with the following functionalities :
+* Link Prediction and Pairwise Node Classification
+* Node Classification
+One for P-GNN with adversarial attack functionality.
 
 The P-GNN framework was taken from [https://github.com/JiaxuanYou/P-GNN] and has other
 benchmarks implemented as well. The framework code is added as
