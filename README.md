@@ -13,10 +13,10 @@ Please cite our paper, if you use our source code.
 
 There are three code folders. 
 Two of them are for GraphReach with the following functionalities :
-* Link Prediction and Pairwise Node Classification
-* Node Classification
+* Link Prediction and Pairwise Node Classification (src_GraphReach)
+* Node Classification (src_GraphReach_NC)
 
-One for P-GNN with adversarial attack functionality.
+One for P-GNN with adversarial attack functionality (pgnn_adversarial)
 
 The P-GNN framework was taken from [https://github.com/JiaxuanYou/P-GNN] and has other
 benchmarks implemented as well. The framework code is added as
